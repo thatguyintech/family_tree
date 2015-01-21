@@ -1,0 +1,54 @@
+{
+  "name": "Song King",
+  "parent": "null",
+  "value": 10,
+  "class": "Theta",
+  "major": "Computer Science",
+  "icon": "song.jpg",
+  "children": [
+    {
+      "name": "Albert Hu",
+      "parent": "Song King",
+      "value": 5,
+      "class": "Kappa",
+      "major": "EECS",
+      "icon": "albert.jpg",
+      "children": [
+        {
+          "name": "Meg Holtzinger",
+          "parent": "Albert Hu",
+          "value": 5,
+          "class": "Mu",
+          "type": "steelblue",
+          "icon": "meg.jpg",
+          "level": "orange"
+        }
+      ]
+    },
+    {
+      "name": "Scott Wun",
+      "parent": "Song King",
+      "value": 10,
+      "class": "Mu",
+      "major": "Industrial Engineering",
+      "icon": "scott.jpg",
+      "level": "green",
+      "children": [
+        {
+          "name": "minion #1",
+          "parent": "Scott Wun",
+          "class": "Xi",
+          "major": "Baller",
+          "icon": "minion.jpg"
+        },
+        {
+          "name": "minion #2",
+          "parent": "Scott Wun",
+          "class": "Xi",
+          "major": "Baller",
+          "icon": "minion.jpg"
+        }
+      ]
+    }
+  ]
+}
